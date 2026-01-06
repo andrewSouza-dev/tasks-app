@@ -48,17 +48,14 @@ git clone git@github.com:andrewSouza-dev/tasks-app.git
 
 2️⃣ Acesse a pasta do projeto
 bash
-Copiar código
 cd tasks-app
 
 3️⃣ Instale as dependências
 bash
-Copiar código
 npm install
 
 4️⃣ Inicie o servidor de desenvolvimento
 bash
-Copiar código
 npm run dev
 ```
 --
