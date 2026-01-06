@@ -67,10 +67,14 @@ O formato de data é tratado no frontend para exibição amigável.
 
 O projeto foi desenvolvido com foco em boas práticas, componentização e legibilidade de código.
 
-👨‍💻 Autor
+---
+
+## 👨‍💻 Autor
 Andrew Souza
 GitHub: @andrewSouza-dev
 
-📄 Licença
+---
+
+## 📄 Licença
 Este projeto está sob a licença MIT.
 Sinta-se livre para usar, estudar e modificar.
