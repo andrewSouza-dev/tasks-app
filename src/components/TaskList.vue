@@ -63,9 +63,9 @@ function formatDate(dateString) {
 }
 
 .card {
-  width: 100%;
+  width: 90%;
   background: #24243a;
-  padding: 1.6rem;
+  padding: 1.5rem;
   border-radius: 16px;
   transition: opacity 0.3s ease, transform 0.2s ease;
 }

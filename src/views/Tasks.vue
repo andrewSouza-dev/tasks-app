@@ -139,6 +139,7 @@ onMounted(loadTasks)
   <div class="header">
     <button class="logout" @click="handleLogout">Sair</button>
   </div>
+
   <div class="wrap">
     <h1>Tarefas</h1>
 
@@ -217,13 +218,27 @@ h1 {
 
 /* FILTROS */
 .filters {
-   padding: 5px;
+   border-radius: 8px;
+   padding: 10px;
+   gap: 1rem;
+   display: flex;
+   margin-bottom: 10px;
+   justify-content: center;
 }
+
+.filter-buttons { 
+    display: flex; 
+    gap: 1rem; /* espaçamento horizontal entre os botões */ 
+    justify-content: center; 
+    margin-bottom: 1rem; 
+}
+
 /* INPUT DE FILTROS */
 .search {
-   padding: 10px;
+   padding: 5px;
    border-radius: 14px;
-
+   height: 30px;
+   width: 200px;
 }
 
 /* BOTAO DE SAIR */
@@ -235,6 +250,16 @@ h1 {
     color: #fff; 
     font-weight: bold; 
     cursor: pointer; 
+}
+
+.pagination {
+    display: flex; 
+    gap: 1rem; 
+    justify-content: center; 
+    align-items: center;
+    margin-top: 2rem;
+    padding: 5px; 
+    border-radius: 8px;
 }
 
 </style>
