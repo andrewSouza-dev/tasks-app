@@ -31,7 +31,7 @@ function formatDate(dateString) {
           <input
             type="checkbox"
             :checked="task.isCompleted"
-            @change="$emit('toggle', task.id)"
+            @change="$emit('toggle', task)"
           />
           <span>{{ task.title }}</span>
         </label>
@@ -54,6 +54,7 @@ function formatDate(dateString) {
     </div>
   </div>
 </template>
+
 
 <style scoped>
 .list {
