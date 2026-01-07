@@ -45,7 +45,7 @@ O projeto permite criar, editar, concluir, excluir e filtrar tarefas, além de c
 ## 📸 Interface
 
 ### 📋 Lista de tarefas
-![Lista de tarefas](./src/assets/images/Home.png)
+![Lista de tarefas](./src/assets/images/Tasks.png)
 
 ### 🔐 Login/Registro de usuário
 ![Tela de login](./src/assets/images/LoginPage.png)
